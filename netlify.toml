@@ -1,5 +1,5 @@
 [build]
-  command = "git config --global user.email 'netlify@deploy.bot' && git config >
+  command = "git config --global user.email 'netlify@deploy.bot' && git config 
   publish = "dist"
 
 [[redirects]]
