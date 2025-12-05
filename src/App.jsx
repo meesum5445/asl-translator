@@ -10,7 +10,7 @@ function App() {
   const [copied, setCopied] = useState(false)
   const fileInputRef = useRef(null)
 
-  const API_URL = 'https://dfee2447dbfa.ngrok-free.app/translate'
+  const API_URL = 'https://9122e3fec23a.ngrok-free.app/translate'
 
   const handleFileChange = (selectedFile) => {
     if (selectedFile && selectedFile.type.startsWith('video/')) {
